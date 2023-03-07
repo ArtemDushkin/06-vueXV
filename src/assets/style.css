@@ -1,0 +1,50 @@
+       .block {
+   display: flex;
+   justify-content: center;
+}
+nav {
+    margin: 40px;
+    text-align: center;
+}
+.a {
+        padding: 0px 30px;
+        font-style: italic;
+        color: cadetblue;
+        font-size: large
+}
+
+.b {
+    padding: 0px 30px;
+    font-style: italic;
+    color: cadetblue;
+    font-size: large;
+    align-self: end;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+    }
+
+.flex-container > div{
+    padding: 20px;
+    width: 500px;
+    font-style: italic;
+    color: cadetblue;
+}
+h1{ 
+    text-align: center;
+    font-style: italic;
+    color: cadetblue;
+}
+h3{ 
+    text-align: center;
+    font-style: italic;
+    color: cadetblue;
+}
+.photo{
+    display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
